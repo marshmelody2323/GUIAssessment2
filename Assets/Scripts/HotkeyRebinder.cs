@@ -29,7 +29,7 @@ public class HotkeyRebinder : MonoBehaviour
     public KeyUISetup[] baseSetup;                                          //We've made the struct, now we need an array of them. One for each button we press.
     public GameObject currentKey;                                           //Reference to the Key we are currently rebinding.
     public Color32 changedKey = new Color32(40, 70, 250, 255);              //When we click a key rebind button, make it orange. Feedback to the player.
-    public Color32 selectedKey = new Color32(255, 100, 30, 255);            //WHen we've rebinded it, make it blue. More feedback.
+    public Color32 selectedKey = new Color32(255, 100, 30, 255);            //When we've rebinded it, make it blue. More feedback.
 
 
 
