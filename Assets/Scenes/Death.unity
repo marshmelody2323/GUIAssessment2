@@ -468,7 +468,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 621737098}
         m_TargetAssemblyTypeName: Respawn, Assembly-CSharp
-        m_MethodName: LoadtheScene
+        m_MethodName: LoadTheScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -27,6 +27,7 @@ public class CharacterScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             movementSpeed = sprintSpeed;
+            StaminaBar.instance.UseStamina(15);
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {

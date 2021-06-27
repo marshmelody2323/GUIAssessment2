@@ -5,8 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Respawn : MonoBehaviour
 {
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+            SceneManager.LoadScene(1);
+    }
 
-    public void LoadtheScene()
+    public void LoadTheScene()
     {
         SceneManager.LoadScene(0);
     }
